@@ -10,88 +10,200 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo header__logo_position_top"></div>
+      <div class="logo logo_place_header"></div>
       <h1 class="header__title">
         Научиться учиться
       </h1>
       <div class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#">Узнать</a>
+        <a href="#" class="header__link">Узнать →</a>
       </div>
-      <div class="header__link"></div>
       <div class="header__main-illustration">
-        <img src="./images/header-image.png" alt="опять двойка">
+        <img src="./images/header-image.png" alt="опять двойка" class="header__main-illustration-img">
       </div>
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
-      <section class="description">
-Главные проблемы в обучении
 
-Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
-
-Вывод: учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
-
-Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
-
+      <section class="two-columns description">
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+        <div class="two-columns__main-text">
+          <p class="two-columns__paragraph">
+            Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
+          </p>
+          <p class="two-columns__paragraph">
+            <span class="two-columns__span-accent">Вывод:</span>
+            учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+          </p>
+          <p class="two-columns__paragraph">
+            Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
+          </p>
+        </div>
       </section>
 
-      <section class="digits">
-        <h2>Цифры и факты</h2>
-Про учёбу и мозг
+      <section class="digits section">
+        <h2 class="section__title">Цифры и факты</h2>
+        <h3 class="section__subtitle">Про учёбу и мозг</h3>
+        <ul class="table">
 
-86 миллиардов
-Число нейронов в мозге человека
+          <li class="table__cell">
+            <h4 class="table__heading">86 миллиардов</h4>
+            <p class="table__text">Число нейронов в мозге человека</p>
+          </li>
 
-2.1 миллиарда
-Число нуждающихся в повышении квалификации
-Всемирный Банк, 2017
+          <li class="table__cell">
+            <h4 class="table__heading">2.1 миллиарда</h4>
+            <p class="table__text">Число нуждающихся в повышении квалификации</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
+          </li>
 
-1000 терабайт
-Объём памяти человека
+          <li class="table__cell">
+            <h4 class="table__heading">1000 терабайт</h4>
+            <p class="table__text">Объём памяти человека</p>
+          </li>
 
-500 триллионов
-Число ответственных за обучение нервных синапсов у взрослого человека
+          <li class="table__cell">
+            <h4 class="table__heading">500 триллионов</h4>
+            <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+          </li>
 
-420 миллионов
-Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
-Всемирный Банк, 2017
+          <li class="table__cell">
+            <h4 class="table__heading">420 миллионов</h4>
+            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
+          </li>
 
-17–20 лет
-Пик обучаемости
+          <li class="table__cell">
+            <h4 class="table__heading">17–20 лет</h4>
+            <p class="table__text">Пик обучаемости</p>
+          </li>
 
-1885 год
-Открытие кривой забывания
+          <li class="table__cell">
+            <h4 class="table__heading">1885 год</h4>
+            <p class="table__text">Открытие кривой забывания</p>
+          </li>
 
-1889 год
-Открытие условного рефлекса
-
+          <li class="table__cell">
+            <h4 class="table__heading">1889 год</h4>
+            <p class="table__text">Открытие условного рефлекса</p>
+          </li>
+        </ul>
       </section>
 
       <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <h3 class="feynman__subtitle">Выучить и не забыть</h3>
+        <a class="feynman__link">Подробнее →</a>
       </section>
 
-      <section class="kaufman">
-        Принципы обучения
-от Джоша Кауфмана
+      <section class="section kaufman">
+        <h2 class="section__title section__title_theme_dark">Принципы обучения</h2>
+        <h3 class="section__subtitle section__subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <ul class="table table_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">1</span>
+            <p class="table__text">
+              Выберите привлекательный проект.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">2</span>
+            <p class="table__text">
+              Сосредоточьтесь на каком-то одном навыке.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">3</span>
+            <p class="table__text">
+              Определите целевой уровень мастерства.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">4</span>
+            <p class="table__text">
+              Разбейте навык на элементы.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">5</span>
+            <p class="table__text">
+              Приготовьте всё необходимое для занятий.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">6</span>
+            <p class="table__text">
+              Устраните препятствия для занятий.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">7</span>
+            <p class="table__text">
+              Выделите специальное время для занятий.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">8</span>
+            <p class="table__text">
+              Создайте быстрые петли обратной связи.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading">9</span>
+            <p class="table__text">
+              Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <span class="table__heading table__heading_theme_dark">10</span>
+            <p class="table__text">
+              Уделяйте внимание количеству и скорости.
+            </p>
+          </li>
 
-Выберите привлекательный проект.
-Сосредоточьтесь на каком-то одном навыке.
-Определите целевой уровень мастерства.
-Разбейте навык на элементы.
-Приготовьте всё необходимое для занятий.
-Устраните препятствия для занятий.
-Выделите специальное время для занятий.
-Создайте быстрые петли обратной связи.
-Занимайтесь по расписанию, короткими интенсивными интервалами.
-Уделяйте внимание количеству и скорости.
+        </ul>
+        <div class="kaufman__triangle"></div>
       </section>
+
     </main>
     <footer class="footer">
-      О Практикуме
-      Главная
-      Концепция
-      Наставники
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <div class="logo logo_place_footer"></div>
+          <div class="footer__author">&copy; Вася Пупкин</div>
+        </div>
+
+        <div class="footer__column footer__column_content_info">
+          <h2 class="footer__column-heading">
+            О Практикуме
+          </h2>
+          <div class="footer__column-links">
+            <a class="footer__column-link" href="#">Главная</a>
+            <a class="footer__column-link" href="#">Концепция</a>
+            <a class="footer__column-link" href="#">Наставники</a>
+          </div>
+        </div>
+
+        <div class="footer__column footer__column_content_social">
+          <h2 class="footer__column-heading">
+            Соцсети
+          </h2>
+          <div class="footer__column-links">
+            <a class="footer__column-link" href="#">
+              <span class="footer__social-icon icon icon_src_youtube"></span>
+              YouTube
+            </a>
+            <a class="footer__column-link" href="#">
+              <span class="footer__social-icon icon icon_src_vk"></span>
+              ВКонтакте
+            </a>
+            <a class="footer__column-link" href="#">
+              <span class="footer__social-icon icon icon_src_tiktok"></span>
+              TikTok
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
 </body>
