@@ -207,11 +207,6 @@
   font-weight: normal;
 }
 
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -227,7 +222,7 @@
 }
 
 .header__square-pic {
-  width: 568x;
+  width: 568px;
   height: 568px;
   position: absolute;
   top: 64px;
