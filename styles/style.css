@@ -55,6 +55,8 @@
 }
 .section-title_theme_dark {
   color: #f2f2f2;
+  position: relative;
+  z-index: 2;
 }
 .section-subtitle  {
   width: 60%;
@@ -121,7 +123,6 @@
 }
 .table_theme_dark {
   color: #f2f2f2;
-
 }
 .table__cell {
   width: 250px;
@@ -236,6 +237,7 @@
   background-color: #f2f2f2;
   min-height: 890px;
   position: relative;
+  box-sizing: border-box;
 }
 .feynman__title {
   text-align: center;
@@ -269,7 +271,7 @@
 
 /* Кауфман*/
 .kaufman {
-  background-color: #000000;
+  background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
   padding: 90px 0;
@@ -287,10 +289,12 @@
 
 /* подвал */
 .footer {
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #f2f2f2;
   padding: 60px 0 40px;
   box-sizing: border-box;
+  min-height: 350px;
+  display: flex;
 }
 .footer__columns {
   position: relative;
@@ -300,10 +304,13 @@
   margin: 0 auto;
 }
 .footer__column {
-  padding-bottom: 16px;
+
 }
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .footer__column_content_info {
 
@@ -313,10 +320,6 @@
 }
 .footer__author {
   margin: 18px 0;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -329,6 +332,7 @@
   font-weight: 600;
 }
 .footer__column-links {
+  margin: 20px 0 16px;
 }
 .footer__social-icon {
   margin: 0 10px 0 0;
