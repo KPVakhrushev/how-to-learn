@@ -74,7 +74,6 @@
 .two-columns {
   display: flex;
   flex-direction: row;
-  align-content: center;
   justify-content: space-between;
   width: 80%;
 }
